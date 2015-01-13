@@ -47,7 +47,7 @@ public class Robot extends IterativeRobot {
     	boolean button = driver.getRawButton(1); // B button on XBOX Controller
     	
     	if(button){
-    		System.out.println("Brake");
+    		System.out.println("Brake"); //print Brake
     		leftFrontMotor.set(0);
     		leftBackMotor.set(0);
     		rightFrontMotor.set(0);
